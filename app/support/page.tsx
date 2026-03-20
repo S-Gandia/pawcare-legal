@@ -113,9 +113,9 @@ export default function SupportPage() {
         </p>
         <a
           href={`mailto:${CONTACT_EMAIL}`}
-          className="mt-2 inline-block rounded-lg bg-brand-600 px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-brand-700"
+          className="mt-2 inline-block rounded-lg bg-brand-600 px-6 py-2.5 text-sm font-semibold !text-white shadow-sm transition-colors hover:bg-brand-700 hover:!text-white no-underline"
         >
-          {CONTACT_EMAIL}
+          Email Support
         </a>
         <p className="mt-4 text-xs text-slate-400">
           Operated by {OPERATOR_NAME}. Response times may vary; we aim to reply

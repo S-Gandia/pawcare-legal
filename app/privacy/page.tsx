@@ -322,7 +322,6 @@ export default function PrivacyPolicyPage() {
             <strong>Email:</strong>{" "}
             <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
           </li>
-          {/* TODO: Replace [YOUR-DOMAIN] with your real domain */}
           <li>
             <strong>Website:</strong>{" "}
             <a href={SITE_URL} target="_blank" rel="noopener noreferrer">
@@ -331,7 +330,6 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
         <p className="mt-4 text-sm text-slate-400">
-          {/* TODO: Replace [Jurisdiction] with your actual governing jurisdiction */}
           This Privacy Policy is governed by the laws of {JURISDICTION}.
         </p>
       </SectionCard>

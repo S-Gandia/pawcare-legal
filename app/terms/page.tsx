@@ -212,7 +212,6 @@ export default function TermsPage() {
         {/* ── 11. Governing Law ── */}
         <h2>11. Governing Law</h2>
         <p>
-          {/* TODO: Replace [Jurisdiction] with your actual governing jurisdiction */}
           These Terms shall be governed by and construed in accordance with the
           laws of {JURISDICTION}, without regard to conflict of law principles.
           Any disputes arising under these Terms shall be resolved in the
@@ -242,7 +241,6 @@ export default function TermsPage() {
             <strong>Email:</strong>{" "}
             <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
           </li>
-          {/* TODO: Replace [YOUR-DOMAIN] with your real domain */}
           <li>
             <strong>Website:</strong>{" "}
             <a href={SITE_URL} target="_blank" rel="noopener noreferrer">
